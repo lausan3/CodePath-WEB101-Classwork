@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+.green {
+  color: green;
+}
+
+#aboutWeek {
+  font-style: italic;
+}
