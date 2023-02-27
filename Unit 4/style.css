@@ -1,0 +1,21 @@
+#body-heading1 {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+}
+
+#body-div {
+  display: block;
+  margin: 5px;
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+#body-div:hover {
+  background-color: #ca38c9;
+  color: #fc9b24;
+}
+
+#youtube-ref:visited {
+  color: green;
+}
