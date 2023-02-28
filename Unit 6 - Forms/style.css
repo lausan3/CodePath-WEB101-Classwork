@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Avenir';
+  margin: 10px;
+}
+
+h1 {
+  align-content: center;
+}
+
+input {
+  display: block;
+  margin: 10px 0px 10px 0px;
+}
+
+#submit-button {
+  background-color: lightgray;
+  border: 0px;
+  position: relative;
+  left: 37px;
+  height: 30px;
+  width: 100px;
+}

@@ -1,0 +1,28 @@
+<!--This unit aims to teach how to create forms in HTML
+and use the information gathered to increase interactivity
+in your website using javascript.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+  <title>Unit 6 - Forms</title>
+</head>
+
+<body>
+  <h1>Submit a Song Request 🗳</h1>
+  <form id="songRequests">
+    <!--Add form elements here-->
+    <label id="name-label">Name: </label> 
+    <input id="name-input" type="text" for="name-label">
+    <label id="song-label" >Song: </label> 
+    <input id="song-input" type="text" for="song-input">
+    <label id="artist-label">Artist: </label> 
+    <input id="artist-input" type="text" for="artist-label">
+    <input id="submit-button" type="submit">
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

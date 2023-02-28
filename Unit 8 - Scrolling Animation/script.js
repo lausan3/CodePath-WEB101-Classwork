@@ -2,7 +2,7 @@ const background_img = document.getElementById('background-img');
 const moon_img = document.getElementById('moon');
 const mountain_img = document.getElementById('mountain');
 const road_img = document.getElementById('road');
-const name_txt = document.getElementById('name-scroll');
+const moonlight_txt = document.getElementById('moonlight');
 
 const rates = {
     background: 0.5,
@@ -19,7 +19,7 @@ const handleScroll = () => {
     moon_img.style.left = -scrollDistance * rates['moon'] + 'px';
     mountain_img.style.top = -scrollDistance * rates['mountain'] + 'px';
     road_img.style.top = scrollDistance * rates['road'] + 'px';
-    name_txt.style.top = scrollDistance * rates['text'] + 'px';
+    moonlight_txt.style.top = scrollDistance * rates['text'] + 'px';
 }
 
 window.addEventListener('scroll', handleScroll);

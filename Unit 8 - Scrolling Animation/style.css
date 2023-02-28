@@ -1,25 +1,21 @@
-html body {
-  margin: 0%;
-}
-
-#moonlight-scroll {
+section {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#moonlight-scroll img {
+section img {
   position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-#name-scroll {
+h2 {
   position: relative;
   color: white;
   font-size: 150px;
@@ -35,7 +31,7 @@ section::before {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgb(194, 215, 238);
-  mix-blend-mode: color-burn;
-  z-index: 5;
+  background-color: lightblue;
+  mix-blend-mode: color;
+  z-index: 4;
 }
